@@ -1,0 +1,97 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the login box */
+.login-container {
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading style */
+.login-container h1 {
+    font-size: 24px;
+    color: #1c1e21;
+    margin-bottom: 20px;
+}
+
+/* Form input styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    font-size: 16px;
+}
+
+/* Password input group styling to position the eye icon */
+.password-group {
+    position: relative;
+}
+
+/* Styling for the eye icon */
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #90949c;
+}
+
+/* Link styling */
+.form-link a, .signup-link a {
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: 500;
+}
+
+.form-link a:hover, .signup-link a:hover {
+    text-decoration: underline;
+}
+
+.form-link {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Login button styling */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #166fe5;
+}
+
+/* Sign-up link styling */
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #606770;
+}
